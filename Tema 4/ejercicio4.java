@@ -22,6 +22,8 @@ public class ejercicio4{
       totalConExtras = 40*12 + sueldoExtra;
       System.out.println("Tu sueldo es de: "+totalConExtras);
     }
-    
+    //Otra forma de hacerlo sería:
+    // sueldoBase = (horas<=40)? horas:40;
+    // sueldoExtra = (horas<=40)? 0 : horas-40;
   }
 }
