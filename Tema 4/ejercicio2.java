@@ -17,7 +17,11 @@ public class ejercicio2{
       System.out.println("Buenas Tardes!");
     } 
     
-    if ((hora >=21) && (hora <=5)){
+    if ((hora >=21) && (hora <=24)){
+      System.out.println("Buenas noches!");
+    }
+    
+    if ((hora >=0) && (hora <=5)){
       System.out.println("Buenas noches!");
     }
   
