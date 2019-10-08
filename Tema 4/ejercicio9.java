@@ -20,10 +20,14 @@ public class ejercicio9{
     c = s.nextInt();
     
     if (a==0){
-      x = -(c)/b;
-      System.out.println("El resultado es: "+x);
+      if(b != 0){  //hemos añadido esta condición para que sino saque por pantalla que la solución no es real.
+        x = -(c)/b;
+        System.out.println("El resultado es: "+x);
+      }else{
+        System.out.print("No hay un solución real");
+      }
       
-    } else{
+      } else{
       calculoPrevio = (b*b)-(4*a*c);
       raiz = (float) Math.sqrt(calculoPrevio);
       x1 = (float)(-1*b - raiz) / (2*a);
